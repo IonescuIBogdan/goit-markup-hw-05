@@ -23,7 +23,7 @@
          <nav class="navclas">
              <ul class="nav-clas">
                 <li>
-                   <a href="studio.html" class="studio-clas">Studio</a>
+                   <a href="index.html" class="studio-clas">Studio</a>
                 </li>
                 <li>
                    <a href="portofolio.html" class="portofolio-clas">Portofolio</a>
@@ -40,6 +40,8 @@
       </div>
    </header>
 
+   
+
    <main class="main-body">
 <!-- urmeaza hero section -->
       <section class="hero-section">
@@ -47,11 +49,19 @@
             <ul class="hero-section-ul">
                <li><h1 class="effective-solutions">Effective Solutions 
                   for Your Business</h1></li>
-               <li><button type="button" class="buton-order-service" onclick="mailto" info@devstudio.com>Order Service
+               <li><button type="button" class="buton-order-service order-service-button" data-modal-open>Order Service
                   </button></li>
             </ul>
          </div>
       </section>
+
+      <div class="modal is-hidden" data-modal>
+         <div class="modal-content">
+            <button class="close-btn" data-modal-close>&times;</button>
+            continut modal
+         </div>
+   
+      </div>
 
       <section class="our-goals">
          <div class="container">
@@ -258,5 +268,6 @@
    <script>
       feather.replace();
     </script>
+    <script src="../js/modal.js"></script>
 </body>
 </html>
