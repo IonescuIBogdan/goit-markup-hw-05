@@ -158,16 +158,11 @@
     color: #404BBF;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-
-  .studio-clas::after {
+  .studio-clas:hover:after {
     content: url("../images/hover.svg");
     display: block;
     transform: translateX(0%);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .studio-clas:hover:after {
-    width:100%; opacity: 1; transform: translateX(0%);
   }
 
   .portofolio-clas {
@@ -182,7 +177,7 @@
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .portofolio-clas::after {
+  .portofolio-clas:hover:after {
     content: url("../images/hover1.svg");
     display: block;
     transform: translateX(0%);
@@ -284,10 +279,7 @@
 .buton-order-service:hover {
   background-color: #404BBF;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.order-service-button {
-  outline: none;
+  cursor: pointer;
 }
 
 .is-hidden {
