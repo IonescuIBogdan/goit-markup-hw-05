@@ -280,10 +280,10 @@ ul {
 }
 
 .buton-order-service:active {
-  color: red;
+  color: #404bbf;
 }
 
-.buton-order-service:focus .buton-order-service:hover {
+.buton-order-service:focus:hover {
   background-color: #404bbf;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
